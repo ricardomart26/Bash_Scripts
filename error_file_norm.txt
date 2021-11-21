@@ -1,0 +1,31 @@
+Missing or invalid header. Header are being reintroduced as a mandatory part of your files. This is not yet an error.
+./bash_projects/Random_num_gen/random_num.c: Error!
+Error: CONSECUTIVE_NEWLINES (line:  76, col:   1):	Consecutive newlines
+Error: SPACE_EMPTY_LINE     (line:  82, col:   1):	Space on empty line
+Error: EMPTY_LINE_FUNCTION  (line:  87, col:   1):	Empty line in function
+Error: CONSECUTIVE_NEWLINES (line:  91, col:   1):	Consecutive newlines
+Error: TOO_MANY_FUNCS       (line: 102, col:   1):	Too many functions in file
+Error: TOO_MANY_FUNCS       (line: 109, col:   1):	Too many functions in file
+Error: TAB_INSTEAD_SPC      (line: 122, col:  21):	Found tab when expecting space
+Error: TOO_MANY_FUNCS       (line: 134, col:   1):	Too many functions in file
+Error: VAR_DECL_START_FUNC  (line: 137, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line: 137, col:   8):	Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line: 137, col:  11):	Declaration and assignation on a single line
+Error: TOO_MANY_FUNCS       (line: 144, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line: 144, col:   4):	space before function name
+Error: SPACE_REPLACE_TAB    (line: 146, col:   8):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 147, col:   8):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 148, col:   8):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 149, col:   8):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 150, col:   8):	Found space when expecting tab
+Error: FORBIDDEN_CHAR_NAME  (line: 150, col:   9):	user defined identifiers should contain only lowercase characters, digits or '_'
+Error: TOO_MANY_VARS_FUNC   (line: 151, col:   1):	Too many variables declarations in a function
+Error: SPACE_REPLACE_TAB    (line: 151, col:   9):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line: 151, col:  10):	Misaligned variable declaration
+Error: TOO_MANY_VARS_FUNC   (line: 152, col:   1):	Too many variables declarations in a function
+Error: SPACE_REPLACE_TAB    (line: 152, col:   8):	Found space when expecting tab
+Error: WRONG_SCOPE_COMMENT  (line: 171, col:   5):	Comment is invalid in this scope
+Error: NO_SPC_BFR_OPR       (line: 176, col:  27):	extra space before operator
+Error: WRONG_SCOPE_COMMENT  (line: 178, col:   5):	Comment is invalid in this scope
+Error: BRACE_SHOULD_EOL     (line: 180, col:   1):	Expected newline after brace
+Error: TOO_MANY_LINES       (line: 180, col:   1):	Function has more than 25 lines

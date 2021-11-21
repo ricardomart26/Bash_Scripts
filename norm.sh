@@ -21,20 +21,22 @@ norm() {
 	if [[ -z $hfiles ]]; then
 		echo "\n\t$RED.h files not found $NC\n"
 	fi
-	touch error_file.txt
-	norminette $cfiles $hfiles | grep -v "OK"
+	touch error_file_norm.txt
+	norminette $cfiles $hfiles | grep -v "OK!" > error_file_norm.txt
 }
 
 remove_lines() {
-	echo ""
-	while read line; do
-		echo $line | grep ".c"
-		# if [! -n line_c ]; then
-		# 	echo this is the .c line $line_c
-		# fi
-			echo this is the .c line $line_c
-	done < error_file.txt
-	rm error_file.txt
+
+	cat error_file_norm.txt | grep 'Space on empty line'
+	cat error_file_norm.txt | grep 'Error!'
+	# while read line; do
+	# 	echo $line | grep ".c"
+	# 	# if [! -n line_c ]; then
+	# 	# 	echo this is the .c line $line_c
+	# 	# fi
+	# 		echo this is the .c line $line_c
+	# done < error_file.txt
+	# rm error_file.txt
 }
 
 
